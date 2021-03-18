@@ -92,9 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				75D8197B2603F5EA00DB3DB0 /* New Group */,
-				75D8197A2603F5DE00DB3DB0 /* Controler */,
 				75D819792603F5D200DB3DB0 /* View */,
 				75D819782603F5C500DB3DB0 /* Model */,
+				75D8197A2603F5DE00DB3DB0 /* Controler */,
 				75EDA521260388BA0029CD4F /* AppDelegate.swift */,
 				75EDA523260388BA0029CD4F /* SceneDelegate.swift */,
 				75EDA52A260388BF0029CD4F /* Assets.xcassets */,
@@ -329,14 +329,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8M85YCYBZ;
 				INFOPLIST_FILE = instagrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.farid.benjomaa.instagrid;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.farid.benjomaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,14 +349,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8M85YCYBZ;
 				INFOPLIST_FILE = instagrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.farid.benjomaa.instagrid;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.farid.benjomaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

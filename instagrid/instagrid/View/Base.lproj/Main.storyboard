@@ -2,9 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -44,7 +44,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="hQ0-du-2YR" firstAttribute="centerX" secondItem="GhT-uK-Ftq" secondAttribute="centerX" id="HRc-Ev-UBK"/>
                                                             <constraint firstItem="hQ0-du-2YR" firstAttribute="centerY" secondItem="GhT-uK-Ftq" secondAttribute="centerY" id="QS0-IR-TKk"/>
@@ -62,7 +62,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="Q0V-Y4-Wdo" firstAttribute="centerX" secondItem="gP1-66-3bd" secondAttribute="centerX" id="B8b-iT-wlx"/>
                                                             <constraint firstItem="Q0V-Y4-Wdo" firstAttribute="centerY" secondItem="gP1-66-3bd" secondAttribute="centerY" id="g0d-w4-oXx"/>
@@ -113,7 +113,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="N2W-3W-Uru" firstAttribute="centerY" secondItem="Isp-rI-bgD" secondAttribute="centerY" id="BpX-E2-cYF"/>
                                                             <constraint firstItem="N2W-3W-Uru" firstAttribute="centerX" secondItem="Isp-rI-bgD" secondAttribute="centerX" id="fB6-UI-dzt"/>
@@ -130,7 +130,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="syg-U2-4ss" firstAttribute="centerX" secondItem="OQn-j8-Wlc" secondAttribute="centerX" id="8xI-8B-zzP"/>
                                                             <constraint firstItem="syg-U2-4ss" firstAttribute="centerY" secondItem="OQn-j8-Wlc" secondAttribute="centerY" id="JGH-1N-MQJ"/>
@@ -238,7 +238,7 @@
                                     <constraint firstAttribute="width" constant="160" id="fxi-Ec-wXX"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-Cu-dwH">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-Cu-dwH" userLabel="SwipeUP">
                                 <rect key="frame" x="67.5" y="106" width="240" height="60"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow Up" translatesAutoresizingMaskIntoConstraints="NO" id="rNR-Nq-aaT">
@@ -258,7 +258,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Swipe up to share">
                                                 <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="18" name="Delm-Medium"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -269,7 +269,7 @@
                                             <attributedString key="attributedText">
                                                 <fragment content="Swipe left to share">
                                                     <attributes>
-                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="NSColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <font key="NSFont" size="18" name="Delm-Medium"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
@@ -327,6 +327,9 @@
                                         <state key="normal" image="Layout 1" backgroundImage="Layout 1">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                         </state>
+                                        <connections>
+                                            <action selector="layout1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fA7-wG-8iB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHB-JK-PFz">
                                         <rect key="frame" x="91.5" y="0.0" width="72" height="71.5"/>
@@ -334,6 +337,9 @@
                                             <constraint firstAttribute="width" secondItem="SHB-JK-PFz" secondAttribute="height" multiplier="1:1" id="K2L-J9-9H9"/>
                                         </constraints>
                                         <state key="normal" image="Selected" backgroundImage="Layout 2"/>
+                                        <connections>
+                                            <action selector="layout2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pmu-B1-ymd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hv-mR-Amy">
                                         <rect key="frame" x="183.5" y="0.0" width="71.5" height="71.5"/>
@@ -341,6 +347,9 @@
                                             <constraint firstAttribute="width" secondItem="6hv-mR-Amy" secondAttribute="height" multiplier="1:1" id="d0m-OI-JRV"/>
                                         </constraints>
                                         <state key="normal" image="Layout 3" backgroundImage="Layout 3"/>
+                                        <connections>
+                                            <action selector="layout3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nCL-Pp-P7q"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -411,6 +420,7 @@
                             <mask key="constraints">
                                 <exclude reference="BqB-zE-2me"/>
                                 <exclude reference="idM-kM-yIo"/>
+                                <exclude reference="3RO-sa-0RV"/>
                                 <exclude reference="07j-N4-r6e"/>
                                 <exclude reference="IJ5-RT-ceu"/>
                                 <exclude reference="djr-D6-ZUA"/>
@@ -422,7 +432,6 @@
                                 <exclude reference="NWe-Jz-XHD"/>
                                 <exclude reference="hIh-DP-Rfc"/>
                                 <exclude reference="iro-Vy-c7e"/>
-                                <exclude reference="3RO-sa-0RV"/>
                                 <exclude reference="C2u-e5-Vh3"/>
                                 <exclude reference="jye-ND-1g8"/>
                                 <exclude reference="o9S-Re-z0U"/>
@@ -439,6 +448,8 @@
                                 <exclude reference="DpO-MT-GWb"/>
                                 <include reference="idM-kM-yIo"/>
                                 <exclude reference="mu4-jP-nfb"/>
+                                <include reference="3RO-sa-0RV"/>
+                                <exclude reference="GSp-Ow-TUA"/>
                                 <exclude reference="07j-N4-r6e"/>
                                 <include reference="IJ5-RT-ceu"/>
                                 <exclude reference="JIs-CI-zKH"/>
@@ -454,8 +465,6 @@
                                 <include reference="vW6-f7-bmN"/>
                                 <exclude reference="9mt-P0-EM7"/>
                                 <exclude reference="Ybb-PC-9EN"/>
-                                <include reference="3RO-sa-0RV"/>
-                                <exclude reference="GSp-Ow-TUA"/>
                                 <exclude reference="C2u-e5-Vh3"/>
                                 <exclude reference="V8L-JW-n6C"/>
                                 <exclude reference="jSk-aJ-lBt"/>
@@ -477,10 +486,19 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="layoutButton1" destination="fwR-wI-Zc2" id="sib-w0-72N"/>
+                        <outlet property="layoutButton2" destination="SHB-JK-PFz" id="wpi-fI-SVD"/>
+                        <outlet property="layoutButton3" destination="6hv-mR-Amy" id="iIu-gO-qGs"/>
+                        <outlet property="view1" destination="GhT-uK-Ftq" id="gks-bf-WTU"/>
+                        <outlet property="view2" destination="gP1-66-3bd" id="Ihf-Xt-sB4"/>
+                        <outlet property="view3" destination="Isp-rI-bgD" id="Zfr-wy-Va0"/>
+                        <outlet property="view4" destination="OQn-j8-Wlc" id="DvK-FB-Sv5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="86.806596701649184"/>
+            <point key="canvasLocation" x="256.80000000000001" y="202.84857571214394"/>
         </scene>
     </scenes>
     <resources>
@@ -492,8 +510,5 @@
         <image name="Layout 3" width="27" height="27"/>
         <image name="Plus" width="13.5" height="13.5"/>
         <image name="Selected" width="27" height="27"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
