@@ -487,7 +487,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="SwipeUp" destination="ahe-Cu-dwH" id="34x-jz-Ltx"/>
                         <outlet property="imageChoose1" destination="hQ0-du-2YR" id="CDq-8r-bwo"/>
                         <outlet property="imageChoose2" destination="Q0V-Y4-Wdo" id="ChA-SE-1H0"/>
                         <outlet property="imageChoose3" destination="N2W-3W-Uru" id="eUX-M4-Swc"/>
@@ -495,10 +494,13 @@
                         <outlet property="layoutButton1" destination="fwR-wI-Zc2" id="sib-w0-72N"/>
                         <outlet property="layoutButton2" destination="SHB-JK-PFz" id="wpi-fI-SVD"/>
                         <outlet property="layoutButton3" destination="6hv-mR-Amy" id="iIu-gO-qGs"/>
+                        <outlet property="principalView" destination="8bC-Xf-vdC" id="ljG-0C-Eb1"/>
+                        <outlet property="swipeUp" destination="ahe-Cu-dwH" id="hSF-9w-XaX"/>
                         <outlet property="view1" destination="GhT-uK-Ftq" id="gks-bf-WTU"/>
                         <outlet property="view2" destination="gP1-66-3bd" id="Ihf-Xt-sB4"/>
                         <outlet property="view3" destination="Isp-rI-bgD" id="Zfr-wy-Va0"/>
                         <outlet property="view4" destination="OQn-j8-Wlc" id="DvK-FB-Sv5"/>
+                        <outlet property="viewImageCombined" destination="HVH-dO-me0" id="asK-tY-ttj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
